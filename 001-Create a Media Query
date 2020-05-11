@@ -1,0 +1,19 @@
+<style>
+  p {
+    font-size: 20px;
+  }
+
+  /* Only change code below this line */
+  
+@media (max-height: 800px){ 
+  p{ font-size:10px;
+  }
+}
+  /* Only change code above this line */
+</style>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa.
+Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. </p>
+
+...
+Add a media query, so that the p tag has a font-size of 10px when the device's height is less than or equal to 800px.
